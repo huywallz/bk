@@ -15,8 +15,8 @@ Includes functions for:
 Designed for minimal dependencies and efficient use in 3D applications.
 */
 
-#ifndef bkm_MATH_H
-#define bkm_MATH_H
+#ifndef BK_MATH_H
+#define BK_MATH_H
 
 #include <math.h>
 
