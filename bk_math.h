@@ -15,6 +15,9 @@ Includes functions for:
 Designed for minimal dependencies and efficient use in 3D applications.
 */
 
+#ifndef BK_MATH_H
+#define BK_MATH_H
+
 #include <math.h>
 
 float bk_math_deg(float x) {
@@ -231,3 +234,5 @@ void bk_mat4_mulv(mat4 m, vec3 v, float w, mat4 dest) {
 	dest[1] = m[1] * v[0] + m[5] * v[1] + m[9]  * v[2] + m[13] * w;
 	dest[2] = m[2] * v[0] + m[6] * v[1] + m[10] * v[2] + m[14] * w;
 }
+
+#endif
